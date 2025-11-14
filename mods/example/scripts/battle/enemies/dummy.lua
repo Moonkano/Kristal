@@ -23,9 +23,7 @@ function Dummy:init()
 
     -- List of possible wave ids, randomly picked each turn
     self.waves = {
-        "basic",
-        "aiming",
-        "movingarena"
+        "testing"
     }
 
     -- Dialogue randomly displayed in the enemy's speech bubble
