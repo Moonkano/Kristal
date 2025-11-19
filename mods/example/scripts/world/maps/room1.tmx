@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="20" height="24" tilewidth="40" tileheight="40" infinite="0" nextlayerid="6" nextobjectid="37">
+<map version="1.11" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="20" height="24" tilewidth="40" tileheight="40" infinite="0" nextlayerid="7" nextobjectid="43">
  <editorsettings>
   <export target="room1.lua" format="lua"/>
  </editorsettings>
@@ -128,6 +128,11 @@ no-good wall slammers.</property>
    </properties>
    <point/>
   </object>
+  <object id="42" name="script" x="247.317" y="404.701" width="108.329" height="75.626">
+   <properties>
+    <property name="cutscene" value="examples.center"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup color="#7f00ff" id="5" name="markers">
   <object id="20" name="spawn" x="300" y="250">
@@ -136,5 +141,9 @@ no-good wall slammers.</property>
   <object id="30" name="entry" x="760" y="240">
    <point/>
   </object>
+  <object id="38" name="room_center" x="298.416" y="551.865">
+   <point/>
+  </object>
  </objectgroup>
+ <objectgroup id="6" name="Object Layer 4"/>
 </map>

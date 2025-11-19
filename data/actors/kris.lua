@@ -4,7 +4,7 @@ function actor:init()
     super.init(self)
 
     -- Display name (optional)
-    self.name = "Kris"
+    self.name = "Ash"
 
     -- Width and height for this actor, used to determine its center
     self.width = 19
@@ -28,7 +28,7 @@ function actor:init()
     -- Sound to play when this actor speaks (optional)
     self.voice = nil
     -- Path to this actor's portrait for dialogue (optional)
-    self.portrait_path = nil
+    self.portrait_path = "partyportraits/ash-neutral"
     -- Offset position for this actor's portrait (optional)
     self.portrait_offset = nil
 

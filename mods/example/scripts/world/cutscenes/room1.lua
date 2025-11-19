@@ -11,7 +11,7 @@ return {
             cutscene:detachFollowers()
 
             -- All text from now is spoken by Susie
-            cutscene:setSpeaker(susie)
+            cutscene:setSpeaker(ash)
             cutscene:text("* Hey,[wait:5] think I can break\nthis wall?", "smile")
 
             -- Get the bottom-center of the broken wall
